@@ -1,0 +1,59 @@
+Pro_Legal_Structured/
+|-- backend/
+|   `-- README.md
+|-- docs/
+|   |-- ARCHITECTURE.md
+|   `-- FOLDER_TREE.txt
+|-- frontend/
+|   |-- public/
+|   |-- src/
+|   |   |-- app/
+|   |   |   |-- (marketing)/
+|   |   |   |   |-- categories/
+|   |   |   |   |   `-- [id]/
+|   |   |   |   |       `-- page.tsx
+|   |   |   |   |-- consultation/
+|   |   |   |   |   `-- page.tsx
+|   |   |   |   |-- info/
+|   |   |   |   |   `-- [slug]/
+|   |   |   |   |       `-- page.tsx
+|   |   |   |   |-- services/
+|   |   |   |   |   `-- [slug]/
+|   |   |   |   |       `-- page.tsx
+|   |   |   |   `-- page.tsx
+|   |   |   |-- globals.css
+|   |   |   |-- layout.tsx
+|   |   |   `-- not-found.tsx
+|   |   |-- components/
+|   |   |   |-- layout/
+|   |   |   |   |-- Footer.tsx
+|   |   |   |   `-- Header.tsx
+|   |   |   `-- ui/
+|   |   |       `-- Brand.tsx
+|   |   |-- lib/
+|   |   |   |-- info.ts
+|   |   |   `-- services.ts
+|   |   `-- modules/
+|   |       |-- home/
+|   |       |   `-- components/
+|   |       |       |-- BottomCTA.tsx
+|   |       |       |-- FAQSection.tsx
+|   |       |       |-- FeaturedSolutions.tsx
+|   |       |       |-- HeroSection.tsx
+|   |       |       |-- HowItWorks.tsx
+|   |       |       |-- ServiceCategories.tsx
+|   |       |       |-- Testimonials.tsx
+|   |       |       |-- TrustSection.tsx
+|   |       |       `-- WhyChooseUs.tsx
+|   |       `-- services/
+|   |           `-- components/
+|   |               |-- ConsultationForm.tsx
+|   |               `-- ServiceSearch.tsx
+|   |-- next-env.d.ts
+|   |-- next.config.ts
+|   |-- package.json
+|   |-- postcss.config.mjs
+|   `-- tsconfig.json
+|-- .gitignore
+|-- package.json
+`-- README.md
